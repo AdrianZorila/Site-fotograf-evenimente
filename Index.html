@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evenimente Speciale - Nuntă, Cununie, Botez</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Fotografii Evenimente Speciale</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Acasa</a></li>
+          <li><a href="nunta.html">Nuntă</a></li>
+          <li><a href="cununie.html">Cununie</a></li>
+          <li><a href="botez.html">Botez</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro">
+      <h2>Bun venit la fotografii profesionale pentru evenimente speciale</h2>
+      <p>
+        Sunt un fotograf profesionist specializat in capturarea momentelor
+        importante din viata ta, inclusiv botezuri, nunti si cununii. Cu o
+        experienta de peste 10 ani, transform evenimentele speciale in amintiri
+        de neuitat pentru tine si familia ta.
+      </p>
+
+      <h1>Lista de Prețuri</h1>
+      <ul class="preturi" id="lista-preturi"></ul>
+    </section>
+    <section id="poza">
+      <img src="img/principala2.jpg" alt="principala2.jpg" />
+    </section>
+    <section id="Portofoliu">
+      <h2>Portofoliu</h2>
+      <div class="slider">
+        <div class="slide">
+          <img src="img/botez1.jpg" alt="Fotografii nunta" />
+        </div>
+        <div class="slide">
+          <img src="img/nunta2.jpg" alt="Fotografii nunta" />
+        </div>
+        <div class="slide">
+          <img src="img/nunta3.jpg" alt="Fotografii nunta" />
+        </div>
+        <div class="slide">
+          <img src="img/nunta4.jpg" alt="Fotografii nunta" />
+        </div>
+        <div class="slide">
+          <img src="img/cununie1.jpg" alt="Fotografii cununie1" />
+        </div>
+        <div class="slide">
+          <img src="img/cununie2.jpg" alt="Fotografii cununie2" />
+        </div>
+        <div class="slide">
+          <img src="img/cununie3.jpg" alt="Fotografii cununie" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <label for="name">Nume:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Mesaj:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <label for="message">Serviciu:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <label for="serviciu">Alege un serviciu:</label>
+        <select id="servicii" name="servicii" required>
+          <option value="nunta">Pachet nunta</option>
+          <option value="botez">Pachet botez</option>
+          <option value="cununie">Pachet cununie</option>
+          <option value="informatii">Alte informatii</option>
+        </select>
+        <button type="submit">Trimite</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Evenimente Speciale. Toate drepturile rezervate.</p>
+    </footer>
+    <script src="document.js"></script>
+  </body>
+</html>

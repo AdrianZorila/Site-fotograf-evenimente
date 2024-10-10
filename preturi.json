@@ -1,0 +1,7 @@
+{
+  "produse": [
+    { "nume": "Pachet fotografii nunta", "pret": 8500 },
+    { "nume": "Pachet fotografii cununie", "pret": 2500 },
+    { "nume": "Pachet fotografii botez", "pret": 4500 }
+  ]
+}
